@@ -10,8 +10,6 @@ protocol Iterator {
 enum Sex {
     case Male
     case Female
-    
-    
 }
 
 class Student {
@@ -75,7 +73,6 @@ class MyStudentListIterator:Iterator {
 }
 
 protocol Teacher {
-    // var studentList:AnyObject {get set}
     func createStudentList()
     func callStudents()
 }
